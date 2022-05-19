@@ -15,6 +15,7 @@ public class HfykLogin {
 		driver.findElement(By.className("text-input")).sendKeys("kumkum");//
 		// driver.findElement(By.cssSelector("input[placeholder='Passphrase']")).sendKeys("123456789101112");
 		driver.findElement(By.xpath("//input[@placeholder='Passphrase']")).sendKeys("123456789101112");
+
 		driver.findElement(By.xpath("//span/h3")).click();
 		Thread.sleep(7000);
 		driver.findElement(By.xpath("//span/h2")).click();
@@ -27,6 +28,6 @@ public class HfykLogin {
 		driver.findElement(By.xpath("//*[text()='Apply And Complete Minimum 2 Jobs A Week']")).click();
 		// System.out.println(driver.findElement(By.className("click-block")).getText());
 
-	}
 
+	}
 }

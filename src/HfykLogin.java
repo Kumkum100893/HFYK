@@ -24,8 +24,8 @@ public class HfykLogin {
         Thread.sleep(3000);
         driver.findElement(By.className("job__name--font")).click();
        // driver.findElement(By.xpath("//input[@placeholder='Search']")).sendKeys("Apply");
-        Thread.sleep(2000);
-      driver.findElement(By.xpath("//*[text()='Apply And Complete Minimum 2 Jobs A Week']")).click();
+        //Thread.sleep(2000);
+      //driver.findElement(By.xpath("//*[text()='Apply And Complete Minimum 2 Jobs A Week']")).click();
         //  System.out.println(driver.findElement(By.className("click-block")).getText());
         
 	}
